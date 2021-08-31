@@ -1,0 +1,51 @@
+body {
+  background: white;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: var(--regular);
+  word-wrap: break-word;
+  color: var(--color-secondary-grayish-blue);
+  font-size: calc(12px + .522949vw);
+  line-height: calc(12px + 1.5vw);
+}
+
+
+
+/// https://www.modularscale.com/?1.125,1140,12&em&1.43
+
+h1, h2, h3, h4, h5 {
+  font-weight: var(--semi-bold);
+  color: var(--color-secondary-dark-grayish-blue);
+  text-rendering: optimizeLegibility;
+  margin: calc(12px + .1vw) 0;
+}
+
+h1 {
+  font-size: 2.007em;
+  line-height: calc(20px + 4.3vw);
+   margin: calc(12px + 1.3vw) 0;
+}
+
+h2 {
+  font-size: 1.823em;
+  line-height: calc(20px + 4.3vw);
+}
+
+h3 {
+  font-size: 1.609em;
+}
+
+h4 {
+  font-size: 1.403em;
+}
+
+h5 {
+  font-size: 1.275em;
+}
+
+h4, h5, h6 {
+  line-height: calc(20px + .2vw);
+}
+
+p {
+  margin-bottom: calc(12px + 1.6vw);
+}

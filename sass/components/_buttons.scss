@@ -1,0 +1,53 @@
+.btn {
+  padding: .6rem 2rem;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  color: white;
+
+  &--ios {
+    &,
+    &:link,
+    &:visited {
+      background-color: var(--color-primary-strong-cyan);
+      border-bottom: .15rem solid var(--color-primary-strong-cyan-night);
+      border-top: 0;
+      border-right: .1rem solid var(--color-primary-strong-cyan-night);
+      border-left: .11rem solid var(--color-primary-strong-cyan-night);
+      box-shadow: 0 1rem 1rem rgba(#26BAA4, .2);
+      transition: all .2s;
+    }
+
+    &:hover {
+      background-color: var(--color-primary-strong-cyan-light);
+    }
+  }
+
+  &--mac {
+    &,
+    &:link,
+    &:visited {
+      background-color: var(--color-primary-light-blue);
+      border-bottom: .15rem solid var(--color-primary-light-blue-night);
+      border-top: 0;
+      border-right: .1rem solid var(--color-primary-light-blue-night);
+      border-left: .11rem solid var(--color-primary-light-blue-night);
+      box-shadow: 0 1rem 1rem rgba(#6173FF, .2);
+      transition: all .2s;
+    }
+
+    &:hover {
+      background-color: var(--color-primary-light-blue-light);
+    }
+  }
+}
+
+.btn-box{
+  & .btn:nth-child(2){
+    margin-left: .7rem;
+
+    @media only screen and (max-width: 376px) {
+      margin-left: 0;
+      margin-top: .5rem;
+    }
+  }
+}
