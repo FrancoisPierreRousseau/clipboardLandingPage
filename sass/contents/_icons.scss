@@ -1,30 +1,31 @@
+.link-social {
+  &:not(:last-child) {
+    margin-right: 1.2rem;
+  }
+}
 
 .icon-logo {
-  &--medium{
+  &--medium {
     width: 5rem;
     height: 5rem;
   }
 
-  &--small{
+  &--small {
     width: 3rem;
     height: 3rem;
   }
 
-  &--workflow{
+  &--workflow {
     width: 3.5rem;
     height: 3.5rem;
   }
 
-  &--brand{
+  &--brand {
     width: 8rem;
   }
 
-  &--social{
+  &--social {
     width: 1.5rem;
     height: 1.5rem;
-
-    &:not(:last-child){
-      margin-right: 1rem;
-    }
   }
 }
